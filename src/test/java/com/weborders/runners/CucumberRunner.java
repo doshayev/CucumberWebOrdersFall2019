@@ -10,14 +10,7 @@ import org.junit.runner.RunWith;
         glue = "com/weborders/step_definitions",
         tags = "",
         dryRun = false,
-        strict = false,
-        plugin = {
-                "html:target/default-report",
-                "json:target/cucumber1.json"
-        }
-
+        plugin = "html:target/default-report"
 )
 public class CucumberRunner {
-
-
 }
